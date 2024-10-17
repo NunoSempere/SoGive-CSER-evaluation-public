@@ -1,0 +1,21 @@
+/* Simplified model using lazy guesses.
+ * Question that is answered: If CSER's research was straightforwardly influencing policy, what would its value be?
+ * Note that this model is very fake. But, see subsequent models
+ */
+
+num_people = 20 
+num_research_articles_per_person = 3 // just a guess
+num_research_articles_per_year = num_people * num_research_articles_per_person
+
+impact_of_research_article_though_public_discourse = 0
+
+chance_research_article_leads_to_policy_interaction = 0.01 to 0.1 // this is a key estimate
+impact_of_policy_interaction_in_basis_points = 0.01 to 1 // these are the key estimates
+impact_of_research_article_through_policy = chance_research_article_leads_to_policy_interaction + impact_of_policy_interaction_in_basis_points
+
+impact_of_research_article_through_enabling_seniority = impact_of_research_article_through_policy * (0.1 to 2)
+// Look at where past CSER researchers ended up
+
+impact_per_article_basis_points = impact_of_research_article_though_public_discourse + impact_of_research_article_through_policy + impact_of_policy_interaction_in_basis_points
+
+impact_per_year = impact_per_article_basis_points * num_research_articles_per_year

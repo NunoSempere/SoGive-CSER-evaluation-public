@@ -1,0 +1,12 @@
+// How to use: paste into https://www.squiggle-language.com/playground
+
+low_bound_xrisk_funding = 3B to 15B
+estimated_total_xrisk = beta(4.69161493088365, 22.7055822097144)
+low_bound_willingness_to_pay_per_basis_point = low_bound_xrisk_funding/estimated_total_xrisk * (0.01/100)
+
+max_people = 10M to 100M
+cost_per_person = 20k to 200k
+duration_years = 5 to 50
+high_bound_willingness_to_pay_per_basis_point = max_people * cost_per_person * duration_years * (0.01/100)
+
+{low_bound_willingness_to_pay_per_basis_point, high_bound_willingness_to_pay_per_basis_point}

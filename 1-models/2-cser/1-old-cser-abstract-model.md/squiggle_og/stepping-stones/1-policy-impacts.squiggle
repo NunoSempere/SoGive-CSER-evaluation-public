@@ -1,0 +1,23 @@
+/* Less fake model, where research articles are just a (necessary) artifact */
+// Note that what we actually care about is the cost-effectiveness of marginal researchers
+// so this is just a stepping stone
+
+num_people = 20 
+
+num_policy_interactions_per_person_per_year = 0.05 to 0.5 
+// as a beta
+// to do: does each researcher draw independently from that distribution?
+
+career_length_years = 5 to 40 // 5 corresponds to dropping out and working on a different topic after 5 years. 40 corresponds to a long career on xrisks
+num_policy_interactions_per_career = num_policy_interactions_per_person_per_year * career_length_years
+discount_factor_due_to_pure_time_preference = 0.1 to 0.4 // how much do you value something now vs later
+discount_factor_due_to_uncertainty = 0.2 to 0.8 // very uncertain
+discount_factor_due_to_shapley = 1/(1 + (1 to 5))// to avoid double counting
+increased_policy_interactions_due_to_stint_at_cser = 0.1 to 5
+num_additional_future_policy_interactions_per_person_per_year_at_cser = num_policy_interactions_per_career * discount_factor_due_to_pure_time_preference * discount_factor_due_to_uncertainty * discount_factor_due_to_shapley * num_policy_interactions_per_career
+
+impact_of_policy_interaction_in_basis_points = 0.001 to 0.5 
+// another key estimate
+// I was very impressed by sean mentioning that they were partially responsible for the UK gov inviting China to the AI summit.
+
+impact_per_year = num_people * (num_policy_interactions_per_person_per_year + num_additional_future_policy_interactions_per_person_per_year_at_cser) * impact_of_policy_interaction_in_basis_points

@@ -1,0 +1,41 @@
+// Direct impact every year
+
+num_policy_interactions_per_marginal_researcher_per_year_at_cser = 0.05 to 0.5
+
+// Number of policy interactions after cser
+career_length_after_cser = 10 to 30 // years
+num_policy_interactions_per_year_after_cser = 0.05 to 0.5
+num_policy_interactions_per_career_after_cser = career_length_after_cser * num_policy_interactions_per_year_after_cser
+
+// Discount factors
+fraction_of_policy_interactions_attributable_to_cser = beta(1.9872200324266, 6.36630125578423)
+discount_factor_due_to_pure_time_preference = 0.1 to 0.4 // how much do you value something now vs later. Should really depend on the number of years that it's later, i.e., things 10 years from now should be discounted less than things less than things 30 years from now
+// ^ should be a beta distribution
+discount_factor_due_to_uncertainty = 0.2 to 0.8 // very uncertain
+// ^ should be a beta distribution
+discount_factor_due_to_shapley = 1/(1 + (1 to 5))// to avoid double counting
+discount_factors = fraction_of_policy_interactions_attributable_to_cser * discount_factor_due_to_pure_time_preference * discount_factor_due_to_uncertainty * discount_factor_due_to_shapley
+
+// Number of those attributable to each year at CSER
+career_length_at_cser = 1 to 8
+// ^ 5% to 50% <https://nunosempere.com/blog/2023/03/15/fit-beta/>
+policy_interactions_after_cser_per_year_of_cser = num_policy_interactions_per_career_after_cser * discount_factors / career_length_at_cser
+
+// Impact of policy interaction
+// To address: conjuctions fallacy. If I model many steps individually, impact looks lower. Remedy: look specifically at bio, ai, volcanoes
+// Part of this is merely definitionally. Above, I've estimated that cser researchers get 0.05 to 0.5 policy interactions per year. So I'm being relatively picky about what I consider a policy interaction, e.g. bumping into a random civil servant. With that in mind...
+chance_influence_government_program = beta(1.9872200324266, 6.36630125578423)
+// ^ probability, so should be a beta. 5% to 50%
+xrisk_for_domain = beta(1.7763655277372, 26.5528563290474)
+// ^ 1% to 15%
+fraction_xrisk_addressed_by_gov_program = beta(0.8403696287077793, 2677.1062463828766) 
+// ^ 0.001% to 0.1%
+impact_of_policy_interaction_in_basis_points  = chance_influence_government_program * xrisk_for_domain * fraction_xrisk_addressed_by_gov_program / (0.01/100)
+
+// Impact in basis points per year at cser
+impact_per_year_at_cser_basis_points = (num_policy_interactions_per_marginal_researcher_per_year_at_cser + policy_interactions_after_cser_per_year_of_cser) * impact_of_policy_interaction_in_basis_points
+
+// Cost effectiveness
+cost_per_researcher_in_millions = 0.1 to 0.3
+cost_effectiveness = impact_per_year_at_cser_basis_points / cost_per_researcher_in_millions
+

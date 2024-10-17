@@ -1,0 +1,21 @@
+Based on the impression that the x-risk community should be willing to spend all of its funding to nullify existential risk...
+a rough lower bound should be...
+| Statistic | Value |
+| --- | --- |
+| Mean   | 5409802.153413 |
+| Median | 4212417.908892 |
+| Std    | 4458248.873081 |
+| 90% confidence interval | 1493397.069429 to 13197742.931800 |
+| 80% confidence interval | 1866805.016734 to 10125400.539532 |
+| 50% confidence interval | 2729685.164281 to 6621250.437919 |
+
+Based on the impression that humanity can't really spend all its future at once...
+a rough higher bound of how much one should be willing to pay for 1 basis point of xrisk reduction is...
+| Statistic | Value |
+| --- | --- |
+| Mean   | 6591085291.394276 |
+| Median | 3157352643.195950 |
+| Std    | 12122537632.692989 |
+| 90% confidence interval | 432695013.450949 to 23178210904.616215 |
+| 80% confidence interval | 669524874.809996 to 14918023056.657534 |
+| 50% confidence interval | 1393689450.963774 to 7135950075.405577 |

@@ -1,0 +1,14 @@
+// When modelling policy interactions in the abstract, it seemed too easy for me to fall into the conjunction fallacy,
+// or generally to not estimate this correctly.
+
+// Example: Existential risk from pandemics
+chance_xrisk_from_pandemics = 0.02 to 0.07 // to do: translate to beta distribution
+chance_pandemic_started_in_UK = 0.01
+chance_pandemic_started_elsewhere = 0.99
+chance_pandemic_prevented_if_started_in_UK = ??
+chance_uk_gov_program_prevents_pandemic = 
+// 
+
+// Example: Existential risk from AI
+
+// Example: Existential risk from volcanoes

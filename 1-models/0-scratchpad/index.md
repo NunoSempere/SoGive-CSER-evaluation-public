@@ -1,0 +1,11 @@
+- Thresholds
+  - LTFF/alternative funding opportunities threshold
+  - 1 basis point for $7M threshold
+- Models of CSER
+  - Bottom up based on policy interactions
+  - Top down based on UK policy impact
+  - Relative to the LTFF
+- Outputs:
+  - Distribution of expected value
+  - Chance that it's above the two thresholds
+- Caveats: Avoid "scientism"

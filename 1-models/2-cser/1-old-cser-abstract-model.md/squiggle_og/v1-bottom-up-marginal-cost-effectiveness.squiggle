@@ -1,0 +1,19 @@
+/* Less fake model, where research articles are just a (necessary) artifact */
+
+num_policy_interactions_per_marginal_researcher_per_year = 0.05 to 0.5
+career_length_years = 10 to 30 
+num_policy_interactions_per_career = num_policy_interactions_per_marginal_researcher_per_year * career_length_years
+discount_factor_due_to_pure_time_preference = 0.1 to 0.4 // how much do you value something now vs later. 
+// ^ should be a beta distribution
+discount_factor_due_to_uncertainty = 0.2 to 0.8 // very uncertain
+// ^ should be a beta distribution
+discount_factor_due_to_shapley = 1/(1 + (1 to 5))// to avoid double counting
+// increased_policy_interactions_due_to_stint_at_cser = 0.5 to 7
+num_additional_future_policy_interactions_per_marginal_researcher_per_year_at_cser = num_policy_interactions_per_career * discount_factor_due_to_pure_time_preference * discount_factor_due_to_uncertainty * discount_factor_due_to_shapley * num_policy_interactions_per_career
+
+impact_of_policy_interaction_in_basis_points = 0.01 to 0.3 // < where would this be coming from? This should really be decomposed
+
+impact_per_year = (num_policy_interactions_per_marginal_researcher_per_year + num_additional_future_policy_interactions_per_marginal_researcher_per_year_at_cser) * impact_of_policy_interaction_in_basis_points
+cost_in_millions =  0.3 //  300k. Unclear how to model this. Say, researchers would spend one to four years at cser before leaving for somewhere else?
+
+impact_per_year/cost_in_millions
