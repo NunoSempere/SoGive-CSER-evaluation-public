@@ -13,9 +13,11 @@ SoGive readily invites debate, feedback, and forks of the model. Reasonable read
 
 We have tried to make this project as open-source as we can, only removing personally identifiable interviews and rough drafts from the working repository to the public repository. In this way, we hope to encourage other organizations in the community to publish their models, so we can work together to converge upon the best estimates of existential risk and cost-effectiveness.
 
-SoGive would like to thank Rethink Priorities for peer-reviewing this piece. We would like to thank Sam Hilton for edits. We would like to thank the Centre for the Study of Existential Risk for their comments, time, and cooperation. These parties may disagree substantially on some of the conclusions in Nuño’s report as commissioned by SoGive. Mistakes remain attributable to the author, Nuño, and primary editor, Spencer R. Ericson.
+SoGive would like to thank Rethink Priorities for peer-reviewing this piece. We would like to thank the Centre for the Study of Existential Risk for their comments, time, and cooperation. These parties may disagree substantially on some of the conclusions in Nuño’s report as commissioned by SoGive. Mistakes remain attributable to the author, Nuño, and primary editor, Spencer R. Ericson.
 
 ## 1. Review of estimation strategies
+
+The following are strategies we might consider using to determine a reasonable cost-effectiveness threshold for philanthropy to reduce existential risk.
 
 ## 1.1. Summary table
 
@@ -54,7 +56,7 @@ In doing so, you will end up leaving the confines of scientific practice and ent
 
 Still, the quantification effort could be interesting, and you could learn something along the way. And direct existential risk estimation seems enticing: even though it will be very speculative and uncertain, it would provide a straightforward point of comparison between different interventions.
 
-We could also ask several people about how much they **value different interventions relative to each other**, as in [here][2] or [here][3]. From these estimates, we can construct a linear scale and then place the different interventions in it to represent how much we value them relative to each other. This will capture participants' intuitions of value. But is time-intensive, and it can be opaque without even more effort
+We could also ask several people about how much they **value different interventions relative to each other**, as in [here][2] or [here][3]. From these estimates, we can construct a linear scale and then place the different interventions in it to represent how much we value them relative to each other. This will capture participants' intuitions of value. But is time-intensive, and it can be opaque without even more effort.
 
 The academic literature has explored similar methods, under the keyword "discrete choice theory". However, they typically ask about binary choices, not about estimates of distributional relative value. Their objective is sometimes to estimate the value of features, e.g., of a renovated bathroom or bigger windows in the market for houses in a given city.
 
@@ -67,11 +69,11 @@ Beyond direct existential risk estimation and relative values, we could **make e
 - ...mentoring
 - etc.
 
-Each of these is a proxy for the ultimate impact. And we'd hope that these proxies scale roughly linearly. Or that if some organization has better proxies than another organization, they will be better overall. 
+Each of these is a proxy for the ultimate impact -- and we'd hope that these proxies scale roughly linearly, or that if some organization has better proxies than another organization, they will be better overall. 
 
-But when comparing what quantity of one unit is better than what quantity of another unit, we are back to having to have some sort of relative value or direct existential risk comparison.
+But when comparing what quantity of one unit is better than what quantity of another unit, we are back to needing some sort of relative value or direct existential risk comparison.
 
-We could remember that ultimately, we want to make some decision, for example, whether to fund some project or not, and we could directly look for **sanity checks, or thresholds which would make our decision clear**:
+We could remember that ultimately, we want to make some decision -- for example, whether to fund a project -- and we could directly look for **sanity checks, or thresholds which would make our decision clear**:
 
 - Is the project strictly worse or strictly better than some other project that we could fund instead?
 - Is the organization not doing anything at all?
@@ -82,11 +84,11 @@ Particularly for the later two questions, it would help to have a threshold abov
 
 ### 1.2.3. More common status quo methods
 
-Although the above methods are sometimes used, it's more common to use lesser methods. There is a temptation to not do quantified estimates, and instead settle for **impact rubrics**. By this I mean aggregating some observable metrics around the world using some sort of checklist or Likert scale. Outside of longtermism, Animal Charity Evaluators and Charity Entrepreneurship do this. The problem with this approach is that values aren't linear: an intervention that scores twice as high on the checklist isn't therefore twice as valuable. And it might even be worse, if the checklist doesn't weigh more valuable factors comparatively heavily.
+Although the above methods are sometimes used, it's more common to use lesser methods. There is a temptation to not do quantified estimates, and instead settle for **impact rubrics**. By this I mean aggregating some observable metrics around the world using some sort of checklist or Likert scale. Outside of longtermism, Animal Charity Evaluators and Charity Entrepreneurship have used this. The problem with this approach is that values aren't linear: an intervention that scores twice as high on the checklist isn't therefore twice as valuable. And it might even be worse, if the checklist doesn't weigh more valuable factors comparatively heavily.
 
 More often, grant evaluators simply rely on **expert intuition**, which relies on an implicit bar for funding. This could work if experts have good judgment. In practice, there isn't enough estimation infrastructure that one can move away from relying on the judgment of individuals soon.
 
-Finally, there is the temptation of using **other funders as a benchmark**, for instance the Long-term Future Fund. This makes sense in that, if you can't do better than a fund, it makes sense to donate to it. But on the other hand, other funders may have idiosyncratic constraints or different beliefs, and taking other funders as a threshold could lead to game of chicken dynamics[^3] or recursion problems[^4]. In the case of the LTFF in particular, they tend to spend around an hour per grant, so it's not clear that it's worth deferring to them.
+Finally, there is the temptation of using **other funders as a benchmark**, for instance the Long-Term Future Fund. This makes sense in that, if you can't do better than a fund, it makes sense to donate to it. But on the other hand, other funders may have idiosyncratic constraints or different beliefs, and taking other funders as a threshold could lead to game of chicken dynamics[^3] or recursion problems[^4]. In the case of the LTFF in particular, they tend to spend around an hour per grant, so it's not clear that it's worth deferring to them.
 
 ## 2. Review of past thresholds
 
@@ -94,7 +96,7 @@ Finally, there is the temptation of using **other funders as a benchmark**, for 
 
 - A question on the Effective Altruism Forum asked ["How many EA 2021 $s would you trade off against a 0.01% chance of existential catastrophe?"][4]. 
   - Linch's answer: \~$100M to ~$1B per basis point, based on gut feeling on the pool of grants.
-  - Khorton's answer, based on short-termist thresholds: $3.5B, based on the value of saving lives of current living people
+  - Khorton's answer, based on short-termist thresholds: $3.5B, based on the value of saving lives of current living people.
   - My own answer from back then, also based on short-termist thresholds: Upwards of $70B.
 - Thomas Kwa has an unpublished Google doc, outlining his estimates of everything in EA. To derive those prices, he backtracks from Linch's estimate. The Google doc is private, but its comments contain a fair share of discussion on this topic. 
 - [This 80,000 Hours interview with Ajeya Cotra][5] of Open Philanthropy mentions that OP estimated a value of $200 trillion per world saved, or $20B per basis point. 
@@ -106,9 +108,9 @@ Finally, there is the temptation of using **other funders as a benchmark**, for 
 
 There are various ways you can put a dollar value to existential risk prevention:
 
-1. by giving a dollar value to DALYs saved. The question you are answering is: how much value (in DALYs, or in "dollars") would saving the world save? The answer looks like: amount of people who would live \* dollar value of life / existential risk averted. The "dollar value of life" here will be something pretty high, e.g., 50K-100K per year, or even higher, because a lives are valuable, something we cherish: if I were *forced* to choose between 100K and an additional year of my life, and if I didn't have any cheaper options, I don't know which one I'd go with.
-2. through comparison with near-termist thresholds. The question you are answering is: if your willingness to pay is the same as for near-termist interventions, how much should you be willing to pay for existential risk interventions? The answer here looks like: amount of people who would live \* about \$5K per life / existential risk averted. Here, the value of a life represents the cheapest you can save a counterfactual life. This question might help you prioritize between longtermist and near-termist interventions.
-3. through thinking about what your willingness to pay should be. The question here is: if I deploy my dollars as far as they can go to reduce existential risk, what is the cost effectiveness? The answer looks like dollars spent at the best interventions your (marginal) dollars can buy per unit of existential risk averted. Here, what matters is how cheap you can buy the cheapest basis point of existential risk prevention.
+1. by giving a dollar value to DALYs saved. The question you are answering is: how much value (in DALYs, or in "dollars") would saving the world save? The answer looks like: **amount of people who would live \* dollar value of life / existential risk averted**. The "dollar value of life" here will be something pretty high, e.g., 50K-100K per year, or even higher, because a lives are valuable, something we cherish: if I were *forced* to choose between 100K and an additional year of my life, and if I didn't have any cheaper options, I don't know which one I'd go with.
+2. through comparison with near-termist thresholds. The question you are answering is: if your willingness to pay is the same as for near-termist interventions, how much should you be willing to pay for existential risk interventions? The answer here looks like: **amount of people who would live \* about \$5K per life / existential risk averted**. Here, the value of a life represents the cheapest you can save a counterfactual life. This question might help you prioritize between longtermist and near-termist interventions.
+3. through thinking about what your willingness to pay should be. The question here is: if I deploy my dollars as far as they can go to reduce existential risk, what is the cost effectiveness? The answer looks like: *dollars spent at the best interventions your (marginal) dollars can buy / existential risk averted**. Here, what matters is how cheap you can buy the cheapest basis point of existential risk prevention.
 
 For deciding whether to donate to more well-trodden global health and development interventions or to more speculative existential risk interventions, the relevant question to be asking is #2. 
 
@@ -117,6 +119,8 @@ However, when deciding to which existential risk intervention you should donate,
 I suspect that there has been substantial confusion on this topic, leading to inflated valuations of longtermist projects. As an analogy, I at some point [estimated][10] that good headphones provided me with 6K to 100K of value, in terms of better mental health and increased productivity (this is high, but they are absurdly effective for me in both cases). If I had no other option, I'm pretty sure I would pay \$6k for good headphones. However, I *do* have other options, because you can get some excellent headphones for less than \$500. Similarly, if you "value" an expected future life at \$5k, the value of speculative existential risk interventions would seem to be very high. But that is not the correct calculation to be making for *willingness to pay*. For willingness to pay, you want to be spending your whole budget paying as low a fraction of a penny per future life as possible[^5].
 
 ## 3. A few tentative thresholds
+
+Having settled on "willingness to pay" as the relevant question in our case, we proceed to estimate an upper and lower bound thereof from first principles. See section 3.3 for links to the models discussed here and their outputs.
 
 ### 3.1. From first principles
 
@@ -128,7 +132,7 @@ This threshold should be understood as an ambitious amount: if you can find an o
 
 The two basic building blocks of the model are estimates of total funding and total risk. As the capital seeking to reduce existential risk rises or the amount of risk decreases, it can afford to relax its cost-effectiveness while still meeting its raison d'être. As one increases capital, at some point one would reach a point where one would want to solve existential risk and then have extra funding left over. Then this threshold would no longer be valid.
 
-#### 3.1.2. An maximum willingness to pay
+#### 3.1.2. A maximum willingness to pay
 
 Humanity's ability to coordinate to avert catastrophes is bounded. Its ability to coordinate would be highest for an unambiguous, verifiable threat, like an asteroid heading directly towards Earth, or an unmistakable alien invasion which declared war beforehand. Maybe in those scenarios, humanity would be able to mobilize the whole world, for instance under a greatly expanded United Nations for multiple decades. In that sense, we could say that humanity's willingness to pay to avoid existential could be some multiple of the world's current GDP ($\~100T/year). For example, we could say that humanity's willingness to pay to avoid existential was $1,000T if humanity was able to coordinate for ten years to spend all of its manpower deflecting an asteroid.
 
@@ -136,7 +140,7 @@ In practice, humanity would not be able to bring that level of coordination to t
 
 So an upper bound of one's willingness to pay is given by the largest check that one could conceivably cash. Consider a "mega Manhattan project" that mobilized 10 to 100 million people, paid each wages of $20k to $200k for 5 to 50 years, and was modeled to bring risk down from 100\% to 0\% risk. This seems like the best humanity could do in the worst scenario. This would correspond to a maximum willingness to pay for a basis point of \~$3B (400M to 23B).
 
-However, we've arrived at that amount considering civilizational willingness to pay. But it's unclear if that can directly translate to willingness to pay for a much smaller donor. Strictly speaking, that upper bound on civilizational willingness to pay doesn't logically imply an upper bound for much smaller donors. For example, it could be that a much smaller community is able to coordinate more tightly and make different trade-offs, for instance because it has much lower discount rates and so values the future much higher. 
+However, we've arrived at that amount considering civilizational willingness to pay. But it's unclear if that can directly translate to willingness to pay for a much smaller donor. Strictly speaking, that upper bound on civilizational willingness to pay doesn't logically imply an upper bound for much smaller donors. For example, it could be that a much smaller community is able to coordinate more tightly and make different trade-offs, for instance because it has much lower discount rates and so values the future much more highly. 
 
 However, while that could be possible, in practice getting less than a basis point of reduction for 400M to 23B means that the solutions wouldn't be able to scale to tackle the existential risk being addressed even if the whole of humanity put its efforts into it. This seems like a loud warning sign of gross inefficiency, and hence the upper threshold stands. More generally, I just expect reasonable existential risk interventions to exceed this threshold, and so I think it is useful to quickly discard potential interventions.
 
@@ -173,9 +177,16 @@ With this in mind, if we take:
 - existential risk reduced by the AI safety community[^9]: 0.01\% to 2\%
 - size of the AI safety community[^10]: 300 to 10k. 
 - cost per person: \$70k to \$150k/year
-- Average career duration so far: 3 to 7 years
+- average career duration so far: 3 to 7 years
 
-Then we arrive at a cost per basis point of between $1.8M and $1.25B. 
+Then we arrive at a cost per basis point of between $1.8M and $1.25B.
+
+(Editor's note: SoGive has uncertainties here. We suspect:
+
+- existential risk reduced by the AI safety community could be higher than this
+- size of the AI safety community could be lower than this 
+- cost per person could be higher than this
+- average career duration so far could be much lower than this)
 
 Now, I like this model because thinking in terms of the impact of the whole AI safety community, their total impact will be large enough that I can intuitively grasp it. In contrast, if I were directly modeling the impact of one individual researcher, I would have to multiply the chance that they are working in an agenda that has some chance of being conceptually correct or adequate, and then some chance of counterfactually avoiding existential or catastrophic risk. That later number would be pretty small and difficult to conceptualize. I prefer the top down in this case.
 
@@ -196,13 +207,23 @@ A final difficulty is that this threshold changes with the amount of funding ava
 - [ALLFED][22]. One might hope that they might be conceptually easier to model than AI. However, modeling their specific kind of R&D is difficult because their impact in the event of a crisis depends on a) being heard and b) someone else putting their ideas into action.
 - [GovAI][23] might be amenable to modeling as a result of its soothingly well-outlined [theory of impact][24].
 
-### 3.3. Summary table and link[^12] to the models
+### 3.3. Summary table and links to the models
 
-| Threshold                                       | Meaning                                                                                                                         | Decision criteria                                                                                                  |
-| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| [Minimum willingness to pay threshold][25]      | Ambitious threshold, beating this is a very good sign                                                                           | If an intervention beats this, fund enthusiastically                                                               |
-| [Robust AI technical safety work threshold][26] | If you don't meet this threshold, there is a reasonably scalable intervention you could donate to that will have better results | If an intervention beats this, fund. This depends on donor preferences, and could be tweaked                       |
-| [Maximum willingness to pay threshold][27]      | Very weak threshold, not beating this is a sign you might be Pascal mugged or grossly inefficient.                              | If an intervention doesn't beat this, definitely don't fund. Useful to discard interventions early on on research. |
+### 3.3.1. Summary of meanings
+
+| Threshold                                                            | Meaning                                                                                                                          | Decision criteria                                                                                                   |
+| -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| [**Minimum willingness to pay threshold**][25] - [*Output*][28]      | Ambitious threshold, beating this is a very good sign.                                                                           | If an intervention beats this, fund enthusiastically.                                                               |
+| [**Robust AI technical safety work threshold**][26] - [*Output*][29] | If you don't meet this threshold, there is a reasonably scalable intervention you could donate to that will have better results. | If an intervention beats this, fund. This depends on donor preferences, and could be tweaked.                       |
+| [**Maximum willingness to pay threshold**][27] - [*Output*][30]      | Very weak threshold, not beating this is a sign you might be Pascal mugged or grossly inefficient.                               | If an intervention doesn't beat this, definitely don't fund. Useful to discard interventions early on in research.  |
+
+### 3.3.2. Summary of values
+
+| Threshold                                 | Mean value in M\$/bp    | Median value in M\$/bp   | Std in M\$/bp   | Mean value in bp/M\$    | Median value in bp/M\$   | Std in bp/M\$   |
+| ----------------------------------------- | ----------------------- | ------------------------ | --------------- | ----------------------- | ------------------------ | --------------- |
+| Minimum willingness to pay threshold      | 5.41                    | 4.21                     | 4.46            | 0.185                   | 0.237                    | 0.224           |
+| Robust AI technical safety work threshold | 9.38e4                  | 26.7                     | 7.04e7          | 1.07e-5                 | 0.0374                   | 1.42e-8         |
+| Maximum willingness to pay threshold      | 6.59e3                  | 3.16e3                   | 1.21e4          | 1.52e-4                 | 3.17e-4                  | 8.25e-5          |
 
 ### 3.4. A note on replicability of estimates
 
@@ -218,7 +239,7 @@ In a recent revision, I've tried to give some more specifics about how I'm arriv
 
 [^1]:	At best, we could do randomized trials over proxies and intermediate outcomes, e.g., if a fellowship accepts individuals, we could run an RCT over a few of them, perhaps repeated over a few cohorts to get a larger sample size.
 
-[^2]:	Throughout this document, we will be considering existential risk for conceptual simplicity and clarity. However, many of the same points apply to existential risk, however defined, which conceptually also includes e.g., stable totalitarian dictatorships.
+[^2]:	Throughout this document, we will be considering extinction risk for conceptual simplicity and clarity. However, many of the same points apply to existential risk, however defined, which conceptually also includes e.g., stable totalitarian dictatorships.
 
 [^3]:	With two funders and three interventions, such that the first funder values A \> B \> C but the second values A \> C \> B, if the first funder waits, the second funder funds A first, and the first funder can fund C. 
 
@@ -237,8 +258,6 @@ In a recent revision, I've tried to give some more specifics about how I'm arriv
 [^10]:	An [estimate][16] from [80,000 hours][17] from [2022][18] puts the number of full time equivalent people working in AI safety as ranging from 100 to 800. That estimate has the upside of going organization by organization. But it is from 2022, and since then, interest has risen. Additionally, you will have [research that is applicable to AI safety even if it doesn't go by that name][19], hence the upper bound of 10k people.
 
 [^11]:	Previously SERI MATS, but the program has since become independent of the Stanford Existential Risk Initiative.
-
-[^12]:	Note that for now this is a private Github repository, and so isn't accessible to the public. This should be changed when this project is completed.
 
 [1]:	https://forum.nunosempere.com/posts/XHZJ9i7QBtAJZ6byW/shapley-values-better-than-counterfactuals
 [2]:	https://forum.nunosempere.com/posts/EPhDMkovGquHtFq3h/an-experiment-eliciting-relative-estimates-for-open
@@ -264,6 +283,9 @@ In a recent revision, I've tried to give some more specifics about how I'm arriv
 [22]:	https://allfed.info
 [23]:	https://www.governance.ai/
 [24]:	https://forum.effectivealtruism.org/posts/42reWndoTEhFqu6T8/ai-governance-opportunity-and-theory-of-impact#Prioritization_and_Theory_of_Impact
-[25]:	https://github.com/NunoSempere/SoGive-CSER-evaluation/blob/master/1-models/src/1-thresholds/0-thresholds-from-first-principles/c/bounds.c
-[26]:	https://github.com/NunoSempere/SoGive-CSER-evaluation/blob/master/1-models/src/1-thresholds/2-ai-community-threshold/c/ai-community.c
-[27]:	https://github.com/NunoSempere/SoGive-CSER-evaluation/blob/master/1-models/src/1-thresholds/0-thresholds-from-first-principles/c/bounds.c#L19
+[25]:	https://github.com/NunoSempere/SoGive-CSER-evaluation-public/blob/master/1-models/1-thresholds/0-thresholds-from-first-principles/c/bounds.c
+[26]:	https://github.com/NunoSempere/SoGive-CSER-evaluation-public/blob/master/1-models/1-thresholds/2-ai-community-threshold/c/ai-community.c
+[27]:	https://github.com/NunoSempere/SoGive-CSER-evaluation-public/blob/master/1-models/1-thresholds/0-thresholds-from-first-principles/c/bounds.c#L19
+[28]:	https://github.com/NunoSempere/SoGive-CSER-evaluation-public/blob/master/1-models/1-thresholds/0-thresholds-from-first-principles/c/output.txt
+[29]:	https://github.com/NunoSempere/SoGive-CSER-evaluation-public/blob/master/1-models/1-thresholds/2-ai-community-threshold/c/output.txt
+[30]:	https://github.com/NunoSempere/SoGive-CSER-evaluation-public/blob/master/1-models/1-thresholds/0-thresholds-from-first-principles/c/output.txt#L12
