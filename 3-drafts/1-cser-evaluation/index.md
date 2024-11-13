@@ -1,6 +1,6 @@
 # Cost-effectiveness evaluation of artificial intelligence-based existential risk reduction work at the Centre for the Study of Existential Risk at the University of Cambridge
 
-*tl:dr*: I present positive and negative aspects of CSER, and then present a synthesis of CSER as an opportunity for impact. I model its impact and apply a threshold model. I discuss modelling choices and caveats, and conclude with two recommendations: seek to reduce funging within CSER, and then make a restricted donation. 
+*tl:dr*: I present positive and negative aspects of CSER, and then present a synthesis of CSER as an opportunity for impact. I model its impact and apply a threshold model. I find that CSER’s AI work beats a strict threshold for a risk-neutral donor, averting about 3.17 basis points of existential risk per million dollars donated (mean estimate). I discuss modelling choices and caveats, and conclude with two recommendations: seek to reduce funging within CSER, and then make a restricted donation to their AI work. 
 
 ## 0. Editor’s note
 SoGive commissioned the following piece of work from Nuño Sempere. We intend for this work to not only help our clients, but to spark a more rigorous, quantitative discussion in the existential risk reduction community on cost-effectiveness.
@@ -11,7 +11,7 @@ SoGive readily invites debate, feedback, and forks of the model. Reasonable read
 
 We have tried to make this project as open-source as we can, only removing personally identifiable interviews and rough drafts from the working repository to the public repository. In this way, we hope to encourage other organizations in the community to publish their models, so we can work together to converge upon the best estimates of existential risk and cost-effectiveness.
 
-SoGive would like to thank Rethink Priorities for peer-reviewing this piece. We would like to thank Sam Hilton for edits. We would like to thank the Centre for the Study of Existential Risk for their comments, time, and cooperation. These parties may disagree substantially on some of the conclusions in Nuño’s report as commissioned by SoGive. Mistakes remain attributable to the author, Nuño, and primary editor, Spencer R. Ericson.
+SoGive would like to thank Rethink Priorities for peer-reviewing this piece. We would like to thank the Centre for the Study of Existential Risk for their comments, time, and cooperation. These parties may disagree substantially on some of the conclusions in Nuño’s report as commissioned by SoGive. Mistakes remain attributable to the author, Nuño, and primary editor, Spencer R. Ericson.
 
 ## 1. Overview of CSER
 
@@ -26,19 +26,19 @@ Their primary pathway to impact, at a high level is, I think, as follows:
   - To grow and nourish an academic research field on the topic
   - To increase the seniority of its researchers and affiliates
   - To gain credibility from policy-makers
-  - To act as a critical interlocutor, and as a bridge between more mainstream worries, like climate change, and more speculative worries, like risk from advanced AI. Correct the existential risk community when it is wrong or overeager.
+  - To act as a critical interlocutor, and as a bridge between more mainstream worries, like climate change, and more speculative worries, like risk from advanced AI; correct the existential risk community when it is wrong or overeager
 - Interact with policy-makers and provide advice
-  - Do this as part of a whole existential risk community, because many voices have more credibility than only one voice
-  - Organize workshops; recently also send participants to secondments
-  - Be more left-wing than right-wing; it's possible this could pay off in a future Labour government[^1].
-  - Affiliation with Cambridge is useful for credibility for policy-makers
-  - Presence in the UK is a bet on the UK's relevance in AI. The AI summit validates that bet so far.
+  - To do this as part of a whole existential risk community, because many voices have more credibility than only one voice
+  - To organize workshops; recently also send participants to secondments
+  - To be more left-wing than right-wing; it's possible this could pay off within the Labour government[^1]
+  - To be affiliated with Cambridge, which is useful for credibility for policy-makers
+  - To be present in the UK, which is a bet on the UK's relevance in AI; the AI summit validates that bet so far
 
-Per [this interview with Seán Ó hÉigeartaigh][1][^2], policy impact for the AI team seems to be particularly high.
+Per an interview with Seán Ó hÉigeartaigh[^2](CSER's past Director), policy impact for the AI team seems to be particularly high.
 
 ### 1.2. Neutral aspects of CSER
 
-CSER has some "marshmallow test" aspects. It looks expensive, but that expense pays. For instance, having more than one think tank advocating similar policies increases robustness, which has paid off after the successive FHI scandals. Affiliation with Cambridge leads to increased cost, but also to closeness to policy impact. My sense is also that CSER might be in a better position, politically, after the next UK elections, which Labour is positioned to win.
+CSER has some "marshmallow test" aspects. It looks expensive, but that expense pays. For instance, having more than one think tank advocating similar policies increases robustness, which has paid off after the successive FHI scandals. Affiliation with Cambridge leads to increased cost, but also to closeness to policy impact. My sense is also that CSER might be in a better position, politically, since Labour has won the UK election.
 
 CSER can also be seen as building bridges between, on the one hand, more speculative existential risks (existential risk from runaway artificial intelligence or from pandemics, etc.) and on the other hand, more "mainstream" existential risks (climate change) and more left-wing concerns (algorithmic bias). Given that CSER's work on the latter two areas is funded by other funders, like the Templeton or Grantham foundations, this could be an opportunity for synthesis and cross-pollination, while remaining cost-effective.
 
@@ -50,27 +50,29 @@ Per various interviews with Seán, with an anonymous person close to their group
 
 This attitude towards internal prioritization has the result that they will likely not seek to grow the most valuable parts of CSER differentially. This makes it less desirable to give CSER unrestricted funds.
 
-To illustrate this point, consider Toby Ord's [estimates of existential risk][2] in *The Precipice*. He estimates a chance of existential risk in the next 100 years of around 1 in 10k for supervolcanoes[^volcanoes], and around 1 in 10 for unaligned artificial intelligence. In addition, addressing existential risk from supervolcanoes seems tricky and capital intensive, and my sense is that it's not more tractable than risk from artificial intelligence. But CSER has researchers working on both artificial intelligence and on risks from volcanoes, and therefore it seems pretty plausible that the differences in impact between its researchers can be \~1000x or higher. 
+To illustrate this point, consider Toby Ord's [estimates of existential risk][1] in *The Precipice*. He estimates a chance of existential risk in the next 100 years of around 1 in 10k for supervolcanoes, and around 1 in 10 for unaligned artificial intelligence. In addition, addressing existential risk from supervolcanoes seems tricky and capital intensive, and my sense is that it's not more tractable than risk from artificial intelligence. But CSER has researchers working on both artificial intelligence and on risks from volcanoes, and therefore it seems pretty plausible that the differences in impact between its researchers can be \~1000x or higher. 
 
-To elaborate on this point further, one of the researchers for whom CSER was looking for funding was Lara Mani, who specializes in risk from volcanoes. I had Vasco Grilo look into this more deeply; his results are [here][3]. He indeed concludes that existential risk from volcanoes is extremely low. To elaborate on this though even more, [here][4] are profiles for a large fraction of CSER researchers, elaborated by a researcher from outside the EA community. The picture these profiles give is of an eclectic institute with widely varying effectiveness profiles.
+To elaborate on this point further, one of the researchers for whom CSER was looking for funding was Lara Mani, who specializes in risk from volcanoes. I had Vasco Grilo look into this more deeply. He indeed concludes that existential risk from volcanoes is extremely low. Looking at the profiles of other CSER researchers, CSER appears to be an eclectic institute with widely varying effectiveness profiles.
 
-So a donor can do better by not donating to CSER as a whole, but rather to the parts of CSER the donor identifies as more valuable. As a result, I will be modeling what I consider to be one of such valuable parts, CSER's AI group[^3]. I feel that this is straightforward, but also that this was worth pointing out explicitly.
+So a donor can do better by not donating to CSER as a whole, but rather to the parts of CSER the donor identifies as more valuable. As a result, I will be modeling what I consider to be one of the most valuable parts, CSER's AI group[^3]. I feel that this is straightforward, but also that this was worth pointing out explicitly.
 
-CSER's funding comes from a potpourri of sources, like the Grantham or the Templeton Foundation for climate risks, or the Effective Altruism or Open Philanthropy sphere for risks from artificial intelligence or biological risks. These sources seem to be aware of the varied nature of CSER, and try to avoid funging. Thus, it will be difficult for there to be a "vision for CSER as a whole", because CSER's resource allocation decisions are made by their funders, not by their leadership[^4], to the extent that funding is restricted.
+CSER's funding comes from a potpourri of sources, like the Grantham or the Templeton Foundation for climate risks, or the Effective Altruism or Open Philanthropy sphere for risks from artificial intelligence or biological risks. These sources seem to be aware of the varied nature of CSER, and try to avoid funging. Thus, it will be difficult for there to be a "vision for CSER as a whole", because CSER's resource allocation decisions are made from outside the organization, by their funders, to the extent that funding is restricted.
 
-Perhaps that is illustrated by the fact that the pathways to impact I outlined in the previous section aren't from a research agenda for CSER as a whole (there doesn't seem to be one), but rather my best guess. Compare with [this pathway to impact][5] for GovAI.
+Perhaps that is illustrated by the fact that the pathways to impact I outlined in the previous section aren't from a research agenda for CSER as a whole (there doesn't seem to be one publicly), but rather my best guess. Compare with [this pathway to impact][2] for GovAI.
 
-CSER is also pretty expensive. Their cost per researcher is above $100k; $100k for salaries and pension. But this doesn't include their actually pretty large support staff. In contrast, cost per researcher for an organization on the other end of the cheapness spectrum, like Riesgos Catastróficos Globales, is something like $20k. 
+CSER is also pretty expensive. Their cost per researcher is above $100k, with $100k just for salaries and pension. But this doesn't include their actually pretty large support staff. In contrast, cost per researcher for an organization on the other end of the cheapness spectrum, like Riesgos Catastróficos Globales, is something like $20k. 
 
 ### 1.4. Synthesis: A tricky and potentially exciting opportunity for impact
 
 Combining the positive and negative aspects of CSER, we can characterize this as a tricky, and perhaps therefore exciting, opportunity for impact. The hope is that if we set up a donation just right, we might achieve a large amount of impact, in a way which other donors wouldn't because it's too complicated.
 
-Besides making recommendations to its donors, SoGive could also take an activist investor role mediating some possible Open Philanthropy funding[^5]. On the CSER side, this would involve giving restricted funding, standing available as an advisor, or making its case about where marginal funding could be most useful. SoGive could make the case to Open Philanthropy that CSER beats their last dollar, and offer to interface with CSER on its behalf.
+Besides making recommendations to its donors, SoGive could also take an activist investor role mediating some possible Open Philanthropy funding[^4]. From SoGive to CSER, this would involve giving restricted funding, standing available as an advisor, or making its case about where marginal funding could be most useful. SoGive could make the case to Open Philanthropy that CSER beats their last dollar, and offer to interface with CSER on its behalf.
+
+We will now move on to quantitatively comparing CSER's AI work to thresholds for cost-effectiveness.
 
 ## 2. Summary of a threshold approach for medium-sized donors
 
-In a [previous write-up][6], we discussed a decision method for choosing whether a donor interested in existential risk should donate to a given opportunity by comparing to a number of thresholds.
+In a [previous write-up][3], we discussed a decision method for choosing whether a donor interested in existential risk should donate to a given opportunity by comparing to a number of thresholds. We will review this write-up now.
 
 The approach was to define some thresholds, and check whether a potential intervention meets them. The thresholds were:
 
@@ -78,9 +80,17 @@ The approach was to define some thresholds, and check whether a potential interv
 - A threshold based on a comparison with some robust funding to the AI safety community, based on the notion that if there was some other reasonably scalable intervention that beat the intervention under consideration, it would be better to fund the better scalable intervention instead.
 - A maximum on willingness to pay based on the notion that maximum willingness to pay should be some small multiple of global GDP, because higher multiples cannot be paid, i.e., humanity would not be able too coordinate to put in the effort that such multiples would represent.
 
+| Threshold                                 | Mean value in M\\$/bp | Median value in M\\$/bp | Std in M\\$/bp | Mean value in bp/M\\$ | Median value in bp/M\\$ | Std in bp/M\\$ |
+| ----------------------------------------- | --------------------- | ----------------------- | -------------- | --------------------- | ----------------------- | -------------- |
+| Minimum willingness to pay threshold      | 5.41                  | 4.21                    | 4.46           | 0.185                 | 0.237                   | 0.224          |
+| Robust AI technical safety work threshold | 9.38e4                | 26.7                    | 7.04e7         | 1.07e-5               | 0.0374                  | 1.42e-8        |
+| Maximum willingness to pay threshold      | 6.59e3                | 3.16e3                  | 1.21e4         | 1.52e-4               | 3.17e-4                 | 8.25e-5        |
+
 ### 2.1. Minimum willingness to pay
 
-The most stringent of those thresholds was the minimum threshold, which enthusiastically recommended that an intervention be funded if it provided 1 basis point per \$1.4 to \$13M. Or, reciprocally, that each million dollars provided 0.075 to 0.67 basis points.
+The rest of Section 2 is technical notes on how to compare interventions to thresholds. Skip to Section 3 for the analysis of CSER's AI work.
+
+The most stringent of those thresholds was the minimum threshold, which enthusiastically recommended that an intervention be funded if it provided 1 basis point per \$1.4 to \$13M (90% CI). Or, reciprocally, that each million dollars provided 0.075 to 0.67 basis points.
 
 Note that this threshold is a distribution because it has as an input uncertain quantities, like the amount of money in the existential risk community, and the total amount of existential risk. We will consider what difficulties this will bring in section 2.3. 
 
@@ -100,7 +110,7 @@ Here are some graphs representing that threshold, as well as some underlying sta
 \end{figure}
 
 
-| Statistic               | Value                |
+| Statistic               | Value (bp/M$)        |
 | ----------------------- | -------------------- |
 | Mean                    | 0.287678             |
 | Median                  | 0.237393             |
@@ -112,11 +122,11 @@ Here are some graphs representing that threshold, as well as some underlying sta
 
 ### 2.2. A threshold based on the value of AI safety technical research
 
-This threshold was based on the estimated value of some robust funding to the AI safety community, for instance some mechanistic interpretability research (which probably has a very small downside) at MATS. The reasoning was that if there was some other reasonably scalable intervention that beat the intervention under consideration, it would be better to fund the better scalable intervention instead.
+This threshold was based on the estimated value of some robust, scalable funding to the AI safety community, for instance some mechanistic interpretability research (which probably has a very small downside) at MATS. We can use a robust, scalable program like MATS as a benchmark. The reasoning was that if there was some other reasonably scalable intervention that beat the intervention under consideration, it would be better to fund the more scalable intervention instead.
 
 Here are some representations for this threshold:
 
-| Statistic               | Value                |
+| Statistic               | Value (bp/M$)        |
 | ----------------------- | -------------------- |
 | Mean                    | 0.135836             |
 | Median                  | 0.037410             |
@@ -136,8 +146,7 @@ Here are some representations for this threshold:
 
 The third threshold had a value of \$400M to \$23B per basis point, and it was meant to more quickly discard possible interventions. For instance:
 
-- Consider the possibility of avoiding $10e^{-7}$ of existential risk from volcanoes[^6] for \$1B. This would have a cost per basis point of \$100B, and the threshold wouldn't be met.
-- Consider [Maurice Chiodo][7]'s work on the ethics of mathematics. It has a very tenuous connection with existential risk, if at all, so the threshold wouldn't be met—though it could be valuable in other ways.
+- Consider the possibility of avoiding $10e^{-7}$ of existential risk from volcanoes[^5] for \$1B. This would have a cost per basis point of \$100B, and the threshold wouldn't be met.
 
 ### 2.3. Comparison with other distributions and dominance criteria
 
@@ -145,7 +154,7 @@ Potentially, when comparing a possible intervention against these thresholds, we
 
 Some ways we could compare them could be:
 
-- Compare their means, their expected values
+- Compare their means, i.e., their expected values
 - Compare their 90% confidence intervals
 - Compare their medians
 - etc.
@@ -197,7 +206,7 @@ Consider again two interventions:
 
 In this case, neither stochastically dominates the other one. 
 
-However, now consider the distribution of 100 draws of each. They will look as follows:
+However, now consider the distribution of 100 draws of each. Figure 4 shows how this will look.
 
 \begin{figure}[hbt!]
 	\centering
@@ -205,9 +214,10 @@ However, now consider the distribution of 100 draws of each. They will look as f
 	\caption{Distribution of the sum of 100 draws from A and 100 draws from B}
 \end{figure}
 
-SoGive makes an emphasis in robustness. Some robustness can arise from a community of people trying different things, as opposed to every participant in a community trying to be individually "robust".
 
-We will see that when comparing CSER to the first principles threshold, CSER will have a higher mean due to a larger right tail of impact. And so CSER will beat the threshold in the sense that a bundle of many different bets with its same distribution as CSER will meet the threshold. 
+SoGive makes an emphasis on robustness. Some robustness can arise from a community of people trying different things, as opposed to every participant in a community trying to be individually "robust".
+
+We will see that when comparing CSER to the first principles threshold, CSER will have a higher mean due to a larger right tail of impact. And so CSER will beat the threshold in the sense that a bundle of many different bets with the same distribution as CSER will beat the threshold. 
 
 ## 3. A model of CSER's AI efforts.
 
@@ -218,37 +228,37 @@ We will see that when comparing CSER to the first principles threshold, CSER wil
 - Magnitude of AI existential risk coming from Britain
 - Magnitude of the reduction in such risk by the AI safety community in Britain
 - Share of that reduction assignable to CSER
-- Chance of funging with less valuable parts of CSER for future funding
+- Chance of funging with less preferred parts of CSER for future funding
 - Reduction in existential risk in other countries as multiplier of reduction of existential risk in Britain
 - Value of marginal future funding as a proportion of current value
 
 For more methodological notes, see Appendix E.
 
-**You can see the model in detail** [here][8]. Generally, I estimated each of the factors subjectively, looking at a reasonable lower and upper bound based on my understanding of the world, and then fitting a suitable distribution depending on the shape of the uncertainty: usually a lognormal distribution, but also a beta distribution for the case where variables, like probabilities, were bounded between 0 and 1. To fit a 90% confidence interval to a beta distribution, I used [this tool on my website][9].
+**You can see the model in detail** [here][4]. Generally, I estimated each of the factors subjectively, looking at a reasonable lower and upper bound based on my understanding of the world, and then fitting a suitable distribution depending on the shape of the uncertainty: usually a lognormal distribution, but also a beta distribution for the case where variables, like probabilities, were bounded between 0 and 1. To fit a 90% confidence interval to a beta distribution, I used [this tool on my website][5].
 
 ### 3.2. A narrative overview of the model of CSER's AI work
 
-We start looking at the overall existential risk from AI. We set it at 2\% to 20\%, as a wide interval -- some combination of my own subjective estimate and an intuitive aggregate of others' risk estimates. 
+We start looking at the overall existential risk from AI. We set it at 2\% to 20\%, as a wide interval -- some combination of my own subjective estimate and an intuitive aggregate of others' risk estimates. (Editor's note: Some reasonable readers might put the lower bound several orders of magnitude lower. This iteration of the model is therefore most useful to a donor whose internal models of existential risk are close to this. We encourage readers with significantly different assumptions, on this quantity and others, to fork the model and see how their assumptions change the cost-effectiveness of CSER's AI work.)
 
-Then we ask, of that share, what fraction belongs to the UK? The case for very little, i.e., something like 1/20th is: There are many cutting edge labs (OpenAI, DeepMind, Inflection, Anthropic, StabilityAI, Mistral, Facebook AI, Baidu/Tencent/Beijing Academy, Grok) nd more are popping up, so it might even be the case that in the future, the best lab is an organization that hasn't been founded yet.
+Then we ask, of that share, what fraction belongs to the UK? The case for very little, i.e., something like 1/20th is: There are many cutting edge labs (OpenAI, DeepMind, Inflection, Anthropic, StabilityAI, Mistral, Facebook AI, Baidu/Tencent/Beijing Academy, Grok), and more are popping up, so it might even be the case that in the future, the best lab is an organization that hasn't been founded yet.
 
 On the other hand, the case for a lot (1/4th) is: The truly cutting edge labs are OpenAI and DeepMind, and looking at recent job openings for DeepMind, about half are in the UK. So we could divide the influence half and half between OpenAI and DeepMind, and of DeepMind's half, about half goes to the UK.
 
-[Here][10] is the small model estimating the share of AI risk coming from the UK.
+[Here][6] is the small model estimating the share of AI risk coming from the UK. (Editor's note: SoGive has uncertainties here and would especially appreciate the readers' efforts to make this quantity more clearly defined.)
 
-Consider the state of AI risk in the UK. We notice that the AI risk community seems to be doing a pretty good job, with the AI summit, secondments deep in the government, and an AI institute that is spending real money on safety. We assign an impressive, but fairly uncertain 10\% to 80\% reduction of the UK's AI risk to the UK's AI safety community. This is much, much better than other peer countries. 
+Consider the state of AI risk in the UK. We notice that the AI risk community seems to be doing a pretty good job, with the AI summit, secondments deep in the government, and an AI institute that is spending real money on safety. We assign an impressive, but fairly uncertain 10\% to 80\% reduction of the UK's AI risk to the UK's AI safety community. This is much, much better than other peer countries. (Editor's note: Some of the work in the UK improving AI safety is not philanthropically funded work, such as DeepMind's internal efforts. SoGive is unsure whether this factor should lower the credit here, in the context of how the thresholds for cost-effectiveness were drawn.)
 
-We still have to ask, though, what fraction of that reduction in impact should be assigned to CSER. The case for comparatively little is that you have a bunch of organizations working on the topic, and in particular, GovAI is working directly with DeepMind. The case for comparatively more is that FHI recently suffered several scandals and CSER has been "holding the line", and in general could just be more competent than others. Overall I assign 7\% to 50\% of the impact of the UK's AI safety community to CSER in particular.
+We still have to ask, though, what fraction of that reduction in impact should be assigned to CSER. The case for comparatively little is that you have a bunch of organizations working on the topic, and in particular, GovAI is working directly with DeepMind. The case for comparatively more is that FHI recently suffered several scandals and CSER has been "holding the line", and in general could just be more competent than others. Overall I assign 7\% to 50\% of the impact of the UK's AI safety community to CSER in particular. (Editor's note: SoGive would appreciate readers' insights on whether other organizations in the UK would have pressed on with AI safety work productively in the absence of CSER. We are currently sympathetic to the view that CSER's work has enabled the work of other actors, but it's possible that the lower bound should be lower here.)
 
-For the value of the UK's AI safety work, and CSER's role in it, this [interview with Seán][11] was informative. One specific result of that interview was that I also added a multiplier for international impact, mostly for their work with China, but also to a lesser extent for the Vatican, which could end up having some outsized impact. That multiplier is a fraction of CSER's impact in the UK, and I'm estimating it as 5\% to 50\%.
+For the value of the UK's AI safety work and CSER's role in it, my interview with Seán was informative. One specific result of that interview was that I also added a multiplier for international impact, mostly for their work with China, but also to a lesser extent for the Vatican, which could end up having some outsized impact. That multiplier is a fraction of CSER's impact in the UK, and I'm estimating it as 5\% to 50\%.
 
-We then look to the value of an additional donation. On the one hand, hiring a new person wouldn't be as valuable as current work. On the other hand, some of the time CSER may have to let a current person go, and there is an impact cost here. For instance, Maathis Maas left them to go to Legal Priorities. Potentially, with more funding, their fellows could have stayed, or transitioned to more senior positions. This reduces the impact of a marginal donation a bit.
+We then look to the value of an additional donation. On the one hand, hiring a new person wouldn't be as valuable as current work. On the other hand, some of the time CSER may have to let a current person go, and there is an impact cost here that funding could prevent. For instance, Maathis Maas left them to go to Legal Priorities. Potentially, with more funding, such fellows could have stayed, or transitioned to more senior positions. Overall, this reduces the impact of a marginal donation a bit.
 
-We then consider the chance of funging. CSER has some unrestricted funding, and a donation to CSER could substitute for some of that unrestricted funding, such that that donation ends up funding a non-AI part of CSER. This ends up depressing the impact of a marginal donation. Another possible source of funging would be Open Philanthropy, I've relegated discussion of it to Appendix B.
+We then consider the chance of funging. CSER has some unrestricted funding, and a donation to CSER could substitute for some of that unrestricted funding, such that that donation ends up funding a non-AI part of CSER. This ends up depressing the impact of a marginal donation. Another possible source of funging would be Open Philanthropy. I've relegated discussion of it to Appendix B.
 
-Ultimately, none of these factors end up being decisive, but rather CSER's value is explained as their combination. Even though most of these factors are quite uncertain, the uncertainty over their product ends up being tighter. This happens often when multiplying distributions; for instance, multiplying lognormals will tend to reduce their standard error relative to the mean (for a proof sketch, see the last section [here][12]). 
+Ultimately, none of these factors end up being decisive, but rather CSER's value is explained as their combination. Even though most of these factors are quite uncertain, the uncertainty over their product ends up being tighter. This happens often when multiplying distributions; for instance, multiplying lognormals will tend to reduce their standard error relative to the mean (for a proof sketch, see the last section [here][7]). 
 
-Initially, I was planning to have two versions of the model, one written in C[^7], and another written in a more accessible language or tool, such as a spreadsheet. The funging model is not as accurate in the spreadsheet model because of the nested distributions. However, you can find the spreadsheet model [here][14] for accessibility of reproducing the results. This spreadsheet can be fed into Carlo [here][15] to visualize the results nicely.
+Initially, I was planning to have two versions of the model, one written in C[^6], and another written in a more accessible language or tool, such as a spreadsheet. The funging model is not as accurate in the spreadsheet model because of the nested distributions. However, you can find the spreadsheet model [here][10] for accessibility of reproducing the results. This spreadsheet can be fed into Carlo [here][11] to visualize the results nicely.
 
 ### 3.3. Result of the model
 
@@ -262,6 +272,8 @@ Figure 5: Distribution of the reduction in existential risk by CSER's AI program
 | Median                  | 1.682010                             |
 | Std                     | 4.462334                             |
 | 90% confidence interval | 0.145405 to 11.196894                |
+
+(See the outputs file on Github [here][8].)
 
 ### 3.4. Results of the model compared to the strict first principles threshold
 
@@ -299,14 +311,14 @@ Figure 9: Distribution of the reduction in existential risk by CSER's AI program
 
 ### 3.5. Results of the model compared to the less strict AI safety community threshold
 
-| Statistic               | Value of CSER         | Value for AI safety community threshold |
-| ----------------------- | --------------------- | --------------------------------------- |
-| Mean                    | 3.174159              | 0.135836                                |
-| Median                  | 1.682010              | 0.037410                                |
-| Std                     | 4.462334              | 0.382310                                |
-| 90% confidence interval | 0.145405 to 11.196894 | 0.000802 to 0.554423                    |
-| 80% confidence interval | 0.264881 to 7.650863  | 0.002255 to 0.320412                    |
-| 50% confidence interval | 0.665697 to 3.872561  | 0.009731 to 0.121844                    |
+| Statistic               | Value (bp/M$ to CSER AI) | Value for AI safety community threshold |
+| ----------------------- | ------------------------ | --------------------------------------- |
+| Mean                    | 3.174159                 | 0.135836                                |
+| Median                  | 1.682010                 | 0.037410                                |
+| Std                     | 4.462334                 | 0.382310                                |
+| 90% confidence interval | 0.145405 to 11.196894    | 0.000802 to 0.554423                    |
+| 80% confidence interval | 0.264881 to 7.650863     | 0.002255 to 0.320412                    |
+| 50% confidence interval | 0.665697 to 3.872561     | 0.009731 to 0.121844                    |
 
 ![][image-6]
 
@@ -332,26 +344,34 @@ But for the risk-neutral evaluator like SoGive, a series of independent bets lik
 
 In a previous document, we compared strategies for estimating the value of speculative interventions and deciding whether to fund them. This time around, we gave a brief overview of one particular strategy, thresholds. Then, we compared CSER, and in particular the AI safety policy part of it, against those thresholds. We presented a few methods of doing that comparison: an extremely strong statewise dominance criterion, a strong statewise dominance criterion, and a normal or weak comparison of means criterion. 
 
-CSER's AI program ends up beating one of the thresholds outright, the threshold comparing it to some low-downside AI technical safety intervention, as might be exemplified by a graduate student doing technical interpreteability work as part of the MATS program. In my modelling, CSER has had enough policy impact that it blows it out of the water. 
+CSER's AI program ends up beating one of the thresholds outright, the threshold comparing it to some low-downside AI technical safety intervention, as might be exemplified by a graduate student doing technical interpretability work as part of the MATS program. In my modelling, CSER has had enough policy impact that it blows it out of the water. 
 
-The comparison against the more ambitious "first principles" threshold is a bit trickier. My model of CSER says that CSER has a higher mean than the threshold. For expected value maximization, beating the mean is enough.
+The comparison against the more ambitious "first principles" threshold (i.e., "minimum willingness to pay") is a bit trickier. My model of CSER says that CSER has a higher mean than the threshold. For expected value maximization, beating the mean is enough.
 
 A series of independent bets like CSER's AI program would, considered together, stochastically beat the ambitious threshold.
 
-From here, the natural course of action seems to be as follows: seek to reduce funging within CSER, and then make a restricted donation. Another option might be instead to lobby Open Philanthropy to fund CSER's AI program. 
+
+| Statistic               | Value (bp/M$, CSER AI)     | Value (bp/M$, minimum willingness to pay threshold) | Value (bp/M$, AI safety community threshold) |                      |
+| ----------------------- | -------------------------------------------------------------------------------- | -------------------------------------------- | -------------------- |
+| Mean                    | 3.174159                                                                         | 0.287678                                     | 0.135836             |
+| Median                  | 1.682010                                                                         | 0.237393                                     | 0.037410             |
+| Std                     | 4.462334                                                                         | 0.201160                                     | 0.382310             |
+| 90% confidence interval | 0.145405 to 11.196894                                                            | 0.075771 to 0.669618                         | 0.000802 to 0.554423 |
+
+From here, the natural course of action seems to be as follows: seek to reduce funging within CSER, and then make a restricted donation to CSER's AI work. Another option might be instead to lobby Open Philanthropy to fund CSER's AI program. 
 
 ## Appendices
 
 ### \S A. Millions of dollars per basis point vs basis points per million dollars.
 
-The threshold document talked about M\$/basis point, although it's an inelegant unit -- so for continuity, here is that threshold visualized in terms of M\$/bp. In those terms, it recommended that an intervention be funded if it provided at least 1 basis point per \$1.4 to \$13M. Or, reciprocally, it recommended that each million dollars provided at least 0.075 to 0.67 basis points.
+The threshold document talked about M\$/basis point, although it's an inelegant unit -- so for continuity, here is the "minimum willingness to pay" threshold visualized in terms of M\$/bp. In those terms, it recommended that an intervention be funded if it provided at least 1 basis point per \$1.4 to \$13M. Or, reciprocally, it recommended that each million dollars provided at least 0.075 to 0.67 basis points.
 
 | Statistic               | Value         |
 | ----------------------- | ------------- |
 | Mean                    | 5.4 M$        |
 | Median                  | 4.2 M$        |
-| Std                     | 12 B$         |
-| 90% confidence interval | 1.5 to 13 M$  |
+| Std                     | 4.5 M$        |
+| 90% confidence interval | 1.4 to 13 M$  |
 | 80% confidence interval | 1.9 to 10 M$  |
 | 50% confidence interval | 2.7 to 6.6 M$ |
 
@@ -404,37 +424,31 @@ Here are brief sketches of how to apply that estimation method to other parts of
   - As a result, they let go of their one nuclear policy person, Paul Ingram. 
 - Applying this decomposition to uniquely synthetic, "holistic," or "systemic" risks seems more of a stretch, but one could also attempt to estimate what magnitude of risk comes from such risks, and what share of that does CSER prevent.
 
-Other parts of CSER are likely to be substantially less valuable than its AI policy part. A donation would be more valuable if it avoided funging with them. One variant that I'm worried about is the superficial rebranding of some other thing (risk communication, ethical problems of mathematics, conundrums in foresight) into "AI".
+Other parts of CSER are likely to be substantially less valuable than its AI policy part (to a risk-neutral donor who intends to reduce existential risk). A donation would be more valuable if it avoided funging with them. One variant that I'm worried about is the superficial rebranding of some other thing (risk communication, ethical problems of mathematics, conundrums in foresight) into "AI".
 
-[^1]:	At some point during my investigation, I was more pessimistic about CSER as a whole, and then thought that this point could end up being more important. This is because some level of CSER being suboptimal could be outweighed by some level of it being more influential in some future Labour government.
+[^1]:	At some point during my investigation, I was more pessimistic about CSER as a whole, and then thought that this point could end up being more important. This is because some level of CSER being suboptimal could be outweighed by some level of it being more influential in the Labour government.
 
 [^2]:	Seán Ó hÉigeartaigh is a mouthful, so I'll just refer to him as Seán.
 
-[^3]:	I will also model some degree of funging between that valuable part and the less valuable part of CSER.
+[^3]:	I will also model some degree of funging between the especially valuable AI work at CSER and the parts of CSER that I expect to have less impact on existential risk.
 
-[^4]:	This is maybe a weird way to put it. The converse would be that CSER hasn't gained the trust of funders for unrestricted funding.
+[^4]:	As a brief aside, activist investor or short-seller funds, like Hindenburg Research, don't typically use only their own funding, but rather get larger funds to invest in them. Here, Open Philanthropy could take the role of the larger investor. Open Philanthropy is attention and capacity constrained, and has "seeing like a state" problems. It wouldn't have the attention and bandwidth to hand-hold CSER much. Perhaps SoGive could seek to explain that to Open Philanthropy or to a larger organization like Founders' Pledge, and get some funding with which to shepherd CSER.
 
-[^5]:	As a brief aside, activist investor or short-seller funds, like Hindenburg Research, don't typically use only their own funding, but rather get larger funds to invest in them. Here, Open Philanthropy could take the role of the larger investor. Open Philanthropy is attention and capacity constrained, and has "seeing like a state" problems. It wouldn't have the attention and bandwidth to hand-hold CSER much. Perhaps SoGive could seek to explain that to Open Philanthropy or to a larger organization like Founders' Pledge, and get some funding with which to shepherd CSER.
+[^5]:	I'm choosing this number as the midpoint between Toby Ord's 1 in 10e4 and Vasco Grillo's 3 in 10e10 estimates of existential risk from volcanoes per century. Considering distributions doesn't change the picture. 
 
-[^6]:	I'm choosing this number as the midpoint between Toby Ord's 1 in 10e4 and Vasco Grillo's 3 in 10e10 estimates of existential risk from volcanoes per century. Considering distributions doesn't change the picture. 
+[^6]:	These are brief [instructions][9] to run the original model in C, suitable to a technical audience who is interested in the additional accuracy this model brings.
 
-[^7]:	These are brief [instructions][13] to run the original model in C, suitable to a technical audience who is interested in the additional accuracy this model brings.
-
-[1]:	https://raw.githubusercontent.com/NunoSempere/SoGive-CSER-evaluation/master/0-working-thoughts/0-info/6-interviews/notes/sean-o-heigeartaigh/transcript.txt?token=GHSAT0AAAAAACKLE6INPFRSWX27JRNGT3HYZN3XYWQ
-[2]:	https://forum.effectivealtruism.org/posts/Z5KZ2cui8WDjyF6gJ/some-thoughts-on-toby-ord-s-existential-risk-estimates#The_table
-[3]:	https://github.com/NunoSempere/SoGive-CSER-evaluation/blob/master/1-models/src/2-cser/6-value-volcanic-risk/vasco-modelling-volcanic.pdf
-[4]:	https://github.com/NunoSempere/SoGive-CSER-evaluation/tree/master/0-working-thoughts/0-info/1-staff-profiles
-[5]:	https://forum.effectivealtruism.org/posts/42reWndoTEhFqu6T8/ai-governance-opportunity-and-theory-of-impact#Prioritization_and_Theory_of_Impact
-[6]:	https://github.com/NunoSempere/SoGive-CSER-evaluation/blob/master/2-writeup-drafts/0-thresholds/1-draft/thresholds.pdf
-[7]:	https://www.cser.ac.uk/team/maurice-chiodo/
-[8]:	https://github.com/NunoSempere/SoGive-CSER-evaluation/tree/master/1-models/src/2-cser
-[9]:	https://nunosempere.com/blog/2023/03/15/fit-beta/
-[10]:	https://github.com/NunoSempere/SoGive-CSER-evaluation/blob/master/1-models/src/2-cser/2-ai-extinction-risk-uk/ai-extinction-risk-uk.c
-[11]:	https://github.com/NunoSempere/SoGive-CSER-evaluation/tree/master/0-working-thoughts/0-info/6-interviews/notes/sean-o-heigeartaigh
-[12]:	https://nunosempere.com/blog/2022/08/20/fermi-introduction/
-[13]:	https://video.nunosempere.com/w/6iL9KpLb3hEg9bL7nyfpco
-[14]:	https://docs.google.com/spreadsheets/d/1KslDwp9QXC1eF7IDRGS3vN9kwALj_ou0Gb5t8G6cNZU/edit#gid=0
-[15]:	https://carlo.app/spr/guBxPNw7zmy3ZHodbDbaKi/list
+[1]:	https://forum.effectivealtruism.org/posts/Z5KZ2cui8WDjyF6gJ/some-thoughts-on-toby-ord-s-existential-risk-estimates#The_table
+[2]:	https://forum.effectivealtruism.org/posts/42reWndoTEhFqu6T8/ai-governance-opportunity-and-theory-of-impact#Prioritization_and_Theory_of_Impact
+[3]:	https://github.com/NunoSempere/SoGive-CSER-evaluation-public/blob/master/3-drafts/0-thresholds/1-draft/thresholds.pdf
+[4]:	https://github.com/NunoSempere/SoGive-CSER-evaluation-public/blob/master/1-models/2-cser/5-value-cser-bps/model.c
+[5]:	https://nunosempere.com/blog/2023/03/15/fit-beta/
+[6]:	https://github.com/NunoSempere/SoGive-CSER-evaluation-public/blob/master/1-models/2-cser/2-ai-existential-risk-uk/ai-existential-risk-uk.c
+[7]:	https://nunosempere.com/blog/2022/08/20/fermi-introduction/
+[8]:    https://github.com/NunoSempere/SoGive-CSER-evaluation-public/blob/master/1-models/3-cser-vs-thresholds/output.txt
+[9]:	https://video.nunosempere.com/w/6iL9KpLb3hEg9bL7nyfpco
+[10]:	https://docs.google.com/spreadsheets/d/1KslDwp9QXC1eF7IDRGS3vN9kwALj_ou0Gb5t8G6cNZU/edit#gid=0
+[11]:	https://carlo.app/spr/guBxPNw7zmy3ZHodbDbaKi/list
 
 [image-1]:	imgs/cser_model.png
 [image-2]:	imgs/cser_vs_threshold.png
