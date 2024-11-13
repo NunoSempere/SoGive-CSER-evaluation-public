@@ -60,7 +60,7 @@ CSER's funding comes from a potpourri of sources, like the Grantham or the Templ
 
 Perhaps that is illustrated by the fact that the pathways to impact I outlined in the previous section aren't from a research agenda for CSER as a whole (there doesn't seem to be one publicly), but rather my best guess. Compare with [this pathway to impact][2] for GovAI.
 
-CSER is also pretty expensive. Their cost per researcher is above $100k, with $100k just for salaries and pension. But this doesn't include their actually pretty large support staff. In contrast, cost per researcher for an organization on the other end of the cheapness spectrum, like Riesgos Catastróficos Globales, is something like $20k. 
+CSER is also pretty expensive. Their cost per researcher is above \$100k, with \$100k just for salaries and pension. But this doesn't include their actually pretty large support staff. In contrast, cost per researcher for an organization on the other end of the cheapness spectrum, like Riesgos Catastróficos Globales, is something like \$20k. 
 
 ### 1.4. Synthesis: A tricky and potentially exciting opportunity for impact
 
@@ -80,7 +80,7 @@ The approach was to define some thresholds, and check whether a potential interv
 - A threshold based on a comparison with some robust funding to the AI safety community, based on the notion that if there was some other reasonably scalable intervention that beat the intervention under consideration, it would be better to fund the better scalable intervention instead.
 - A maximum on willingness to pay based on the notion that maximum willingness to pay should be some small multiple of global GDP, because higher multiples cannot be paid, i.e., humanity would not be able too coordinate to put in the effort that such multiples would represent.
 
-| Threshold                                 | Mean value in M\\$/bp | Median value in M\\$/bp | Std in M\\$/bp | Mean value in bp/M\\$ | Median value in bp/M\\$ | Std in bp/M\\$ |
+| Threshold                                 | Mean value in M\$/bp | Median value in M\$/bp | Std in M\$/bp | Mean value in bp/M\$ | Median value in bp/M\$ | Std in bp/M\$ |
 | ----------------------------------------- | --------------------- | ----------------------- | -------------- | --------------------- | ----------------------- | -------------- |
 | Minimum willingness to pay threshold      | 5.41                  | 4.21                    | 4.46           | 0.185                 | 0.237                   | 0.224          |
 | Robust AI technical safety work threshold | 9.38e4                | 26.7                    | 7.04e7         | 1.07e-5               | 0.0374                  | 1.42e-8        |
@@ -110,12 +110,12 @@ Here are some graphs representing that threshold, as well as some underlying sta
 \end{figure}
 
 
-| Statistic               | Value (bp/M$)        |
-| ----------------------- | -------------------- |
-| Mean                    | 0.287678             |
-| Median                  | 0.237393             |
-| Std                     | 0.201160             |
-| 90% confidence interval | 0.075771 to 0.669618 |
+| Statistic               | Value (bp/M\$)        |
+| ----------------------- | --------------------- |
+| Mean                    | 0.287678              |
+| Median                  | 0.237393              |
+| Std                     | 0.201160              |
+| 90% confidence interval | 0.075771 to 0.669618  |
 
 
 \newpage
@@ -126,7 +126,7 @@ This threshold was based on the estimated value of some robust, scalable funding
 
 Here are some representations for this threshold:
 
-| Statistic               | Value (bp/M$)        |
+| Statistic               | Value (bp/M\$)        |
 | ----------------------- | -------------------- |
 | Mean                    | 0.135836             |
 | Median                  | 0.037410             |
@@ -278,7 +278,7 @@ Figure 5: Distribution of the reduction in existential risk by CSER's AI program
 ### 3.4. Results of the model compared to the strict first principles threshold
 
 
-| Statistic               | Value (bp/M$ from CSER AI) | Value (bp/M$ from minimum willingness to pay threshold) |
+| Statistic               | Value (bp/M\$ from CSER AI) | Value (bp/M\$ from minimum willingness to pay threshold) |
 | ----------------------- | -------------------------- | ------------------------------------------------------- |
 | Mean                    | 3.174159                   | 0.287678                                                |
 | Median                  | 1.682010                   | 0.237393                                                |
@@ -311,8 +311,8 @@ Figure 9: Distribution of the reduction in existential risk by CSER's AI program
 
 ### 3.5. Results of the model compared to the less strict AI safety community threshold
 
-| Statistic               | Value (bp/M$ to CSER AI) | Value for AI safety community threshold |
-| ----------------------- | ------------------------ | --------------------------------------- |
+| Statistic               | Value (bp/M'$ to CSER AI) | Value (bp/M\$ from AI safety community threshold) |
+| ----------------------- | ------------------------ | -------------------------------------------------- |
 | Mean                    | 3.174159                 | 0.135836                                |
 | Median                  | 1.682010                 | 0.037410                                |
 | Std                     | 4.462334                 | 0.382310                                |
