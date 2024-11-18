@@ -1,5 +1,5 @@
 Based on the impression that the x-risk community should be willing to spend all of its funding to nullify existential risk...
-a rough lower bound should be...
+a rough lower bound (in $/bp) should be...
 | Statistic | Value |
 | --- | --- |
 | Mean   | 5409802.153413 |
@@ -8,6 +8,16 @@ a rough lower bound should be...
 | 90% confidence interval | 1493397.069429 to 13197742.931800 |
 | 80% confidence interval | 1866805.016734 to 10125400.539532 |
 | 50% confidence interval | 2729685.164281 to 6621250.437919 |
+
+
+In bp/M$ instead this is...| Statistic | Value |
+| --- | --- |
+| Mean   | 0.287678 |
+| Median | 0.237393 |
+| Std    | 0.201160 |
+| 90% confidence interval | 0.075771 to 0.669618 |
+| 80% confidence interval | 0.098762 to 0.535675 |
+| 50% confidence interval | 0.151029 to 0.366343 |
 
 Based on the impression that humanity can't really spend all its future at once...
 a rough higher bound of how much one should be willing to pay for 1 basis point of xrisk reduction is...
@@ -19,3 +29,13 @@ a rough higher bound of how much one should be willing to pay for 1 basis point 
 | 90% confidence interval | 432695013.450949 to 23178210904.616215 |
 | 80% confidence interval | 669524874.809996 to 14918023056.657534 |
 | 50% confidence interval | 1393689450.963774 to 7135950075.405577 |
+
+In bp/M$ instead this is...| Statistic | Value |
+| --- | --- |
+| Mean   | 0.000659 |
+| Median | 0.000317 |
+| Std    | 0.001202 |
+| 90% confidence interval | 0.000043 to 0.002311 |
+| 80% confidence interval | 0.000067 to 0.001494 |
+| 50% confidence interval | 0.000140 to 0.000718 |
+
