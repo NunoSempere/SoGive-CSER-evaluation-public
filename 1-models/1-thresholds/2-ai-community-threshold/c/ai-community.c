@@ -28,3 +28,8 @@ double cost_effectiveness_technical_ai_safety_community_if_positive(uint64_t* se
     // the second are because of the basis points
     return cost_per_basis_point_in_millions;
 }
+
+double cost_effectiveness_technical_ai_safety_community_if_positive_bp_per_million(uint64_t* seed){
+    return 1/cost_effectiveness_technical_ai_safety_community_if_positive(seed);
+}
+

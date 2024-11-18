@@ -10,7 +10,8 @@ a rough lower bound (in $/bp) should be...
 | 50% confidence interval | 2729685.164281 to 6621250.437919 |
 
 
-In bp/M$ instead this is...| Statistic | Value |
+In bp/M$ instead this is...
+| Statistic | Value |
 | --- | --- |
 | Mean   | 0.287678 |
 | Median | 0.237393 |
@@ -30,7 +31,8 @@ a rough higher bound of how much one should be willing to pay for 1 basis point 
 | 80% confidence interval | 669524874.809996 to 14918023056.657534 |
 | 50% confidence interval | 1393689450.963774 to 7135950075.405577 |
 
-In bp/M$ instead this is...| Statistic | Value |
+In bp/M$ instead this is...
+| Statistic | Value |
 | --- | --- |
 | Mean   | 0.000659 |
 | Median | 0.000317 |

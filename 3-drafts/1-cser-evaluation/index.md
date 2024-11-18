@@ -82,9 +82,9 @@ The approach was to define some thresholds, and check whether a potential interv
 
 | Threshold                                 | Mean value in M\$/bp | Median value in M\$/bp | Std in M\$/bp | Mean value in bp/M\$ | Median value in bp/M\$ | Std in bp/M\$ |
 | ----------------------------------------- | --------------------- | ----------------------- | -------------- | --------------------- | ----------------------- | -------------- |
-| Minimum willingness to pay threshold      | 5.41                  | 4.21                    | 4.46           | 0.185                 | 0.237                   | 0.224          |
+| Minimum willingness to pay threshold      | 5.41                  | 4.21                    | 4.46           | 0.287                 | 0.237                   | 0.201          |
 | Robust AI technical safety work threshold | 9.38e4                | 26.7                    | 7.04e7         | 1.07e-5               | 0.0374                  | 1.42e-8        |
-| Maximum willingness to pay threshold      | 6.59e3                | 3.16e3                  | 1.21e4         | 1.52e-4               | 3.17e-4                 | 8.25e-5        |
+| Maximum willingness to pay threshold      | 6.59e3                | 3.16e3                  | 1.21e4         | 6.59e-4               | 3.17e-4                 | 1.2e-3        |
 
 ### 2.1. Minimum willingness to pay
 
@@ -268,10 +268,10 @@ Figure 5: Distribution of the reduction in existential risk by CSER's AI program
 
 | Statistic               | Value (basis points per million USD) |
 | ----------------------- | ------------------------------------ |
-| Mean                    | 3.174159                             |
-| Median                  | 1.682010                             |
-| Std                     | 4.462334                             |
-| 90% confidence interval | 0.145405 to 11.196894                |
+| Mean                    | 2.198786 |
+| Median                  | 0.996550 |
+| Std                     | 3.561656 |
+| 90% confidence interval | 0.018285 to 8.340615 |
 
 (See the outputs file on Github [here][8].)
 
@@ -280,10 +280,10 @@ Figure 5: Distribution of the reduction in existential risk by CSER's AI program
 
 | Statistic               | Value (bp/M\$ from CSER AI) | Value (bp/M\$ from minimum willingness to pay threshold) |
 | ----------------------- | -------------------------- | ------------------------------------------------------- |
-| Mean                    | 3.174159                   | 0.287678                                                |
-| Median                  | 1.682010                   | 0.237393                                                |
-| Std                     | 4.462334                   | 0.201160                                                |
-| 90% confidence interval | 0.145405 to 11.196894      | 0.075771 to 0.669618                                    |
+| Mean                    | 2.198786                   | 0.287678                                                |
+| Median                  | 0.996550                   | 0.237393                                                |
+| Std                     | 3.561656                   | 0.201160                                                |
+| 90% confidence interval | 0.018285 to 8.340615       | 0.075771 to 0.669618                                    |
 
 ![][image-2]
 
@@ -313,12 +313,12 @@ Figure 9: Distribution of the reduction in existential risk by CSER's AI program
 
 | Statistic               | Value (bp/M'$ to CSER AI) | Value (bp/M\$ from AI safety community threshold) |
 | ----------------------- | ------------------------ | -------------------------------------------------- |
-| Mean                    | 3.174159                 | 0.135836                                |
-| Median                  | 1.682010                 | 0.037410                                |
-| Std                     | 4.462334                 | 0.382310                                |
-| 90% confidence interval | 0.145405 to 11.196894    | 0.000802 to 0.554423                    |
-| 80% confidence interval | 0.264881 to 7.650863     | 0.002255 to 0.320412                    |
-| 50% confidence interval | 0.665697 to 3.872561     | 0.009731 to 0.121844                    |
+| Mean                    | 2.198786                 | 0.135836                                |
+| Median                  | 0.996550                 | 0.037410                                |
+| Std                     | 3.561656                 | 0.382310                                |
+| 90% confidence interval | 0.018285 to 8.340615     | 0.000802 to 0.554423                    |
+| 80% confidence interval | 0.085793 to 5.500049     | 0.002255 to 0.320412                    |
+| 50% confidence interval | 0.324716 to 2.580961     | 0.009731 to 0.121844                    |
 
 ![][image-6]
 
@@ -350,13 +350,12 @@ The comparison against the more ambitious "first principles" threshold (i.e., "m
 
 A series of independent bets like CSER's AI program would, considered together, stochastically beat the ambitious threshold.
 
-
 | Statistic               | Value (bp/M$, CSER AI)     | Value (bp/M$, minimum willingness to pay threshold) | Value (bp/M$, AI safety community threshold) |                      |
 | ----------------------- | -------------------------------------------------------------------------------- | -------------------------------------------- | -------------------- |
-| Mean                    | 3.174159                                                                         | 0.287678                                     | 0.135836             |
-| Median                  | 1.682010                                                                         | 0.237393                                     | 0.037410             |
-| Std                     | 4.462334                                                                         | 0.201160                                     | 0.382310             |
-| 90% confidence interval | 0.145405 to 11.196894                                                            | 0.075771 to 0.669618                         | 0.000802 to 0.554423 |
+| Mean                    | 2.198786                                                                         | 0.287678                                     | 0.135836             |
+| Median                  | 0.996550                                                                         | 0.237393                                     | 0.037410             |
+| Std                     | 3.561656                                                                         | 0.201160                                     | 0.382310             |
+| 90% confidence interval | 0.018285 to 8.340615                                                             | 0.075771 to 0.669618                         | 0.000802 to 0.554423 |
 
 From here, the natural course of action seems to be as follows: seek to reduce funging within CSER, and then make a restricted donation to CSER's AI work. Another option might be instead to lobby Open Philanthropy to fund CSER's AI program. 
 

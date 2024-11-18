@@ -1,1 +1,2 @@
 double cost_effectiveness_technical_ai_safety_community_if_positive(uint64_t* seed);
+double cost_effectiveness_technical_ai_safety_community_if_positive_bp_per_million(uint64_t* seed);
