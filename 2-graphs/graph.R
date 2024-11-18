@@ -4,7 +4,7 @@ library(ggthemes)
 library(scales)
 
 # set working directory
-setwd("/home/loki/Documents/noncore/fresh/jobs/fresh/sogive-cser/inner/2-graphs")
+setwd("/home/nuno/Documents/core/jobs/past/sogive-cser/SoGive-CSER-evaluation-public/2-graphs")
 SAVE_IMGS = TRUE
 
 ## A. First principles threshold.
