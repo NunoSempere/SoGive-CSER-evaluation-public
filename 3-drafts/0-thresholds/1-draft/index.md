@@ -110,7 +110,7 @@ There are various ways you can put a dollar value to existential risk prevention
 
 1. by giving a dollar value to DALYs saved. The question you are answering is: how much value (in DALYs, or in "dollars") would saving the world save? The answer looks like: **amount of people who would live \* dollar value of life / existential risk averted**. The "dollar value of life" here will be something pretty high, e.g., 50K-100K per year, or even higher, because a lives are valuable, something we cherish: if I were *forced* to choose between 100K and an additional year of my life, and if I didn't have any cheaper options, I don't know which one I'd go with.
 2. through comparison with near-termist thresholds. The question you are answering is: if your willingness to pay is the same as for near-termist interventions, how much should you be willing to pay for existential risk interventions? The answer here looks like: **amount of people who would live \* about \$5K per life / existential risk averted**. Here, the value of a life represents the cheapest you can save a counterfactual life. This question might help you prioritize between longtermist and near-termist interventions.
-3. through thinking about what your willingness to pay should be. The question here is: if I deploy my dollars as far as they can go to reduce existential risk, what is the cost effectiveness? The answer looks like: *dollars spent at the best interventions your (marginal) dollars can buy / existential risk averted**. Here, what matters is how cheap you can buy the cheapest basis point of existential risk prevention.
+3. through thinking about what your willingness to pay should be. The question here is: if I deploy my dollars as far as they can go to reduce existential risk, what is the cost effectiveness? The answer looks like: **dollars spent at the best interventions your (marginal) dollars can buy / existential risk averted**. Here, what matters is how cheap you can buy the cheapest basis point of existential risk prevention.
 
 For deciding whether to donate to more well-trodden global health and development interventions or to more speculative existential risk interventions, the relevant question to be asking is #2. 
 
@@ -221,9 +221,11 @@ A final difficulty is that this threshold changes with the amount of funding ava
 
 | Threshold                                 | Mean value in M\$/bp    | Median value in M\$/bp   | Std in M\$/bp   | Mean value in bp/M\$    | Median value in bp/M\$   | Std in bp/M\$   |
 | ----------------------------------------- | ----------------------- | ------------------------ | --------------- | ----------------------- | ------------------------ | --------------- |
-| Minimum willingness to pay threshold      | 5.41                    | 4.21                     | 4.46            | 0.185                   | 0.237                    | 0.224           |
-| Robust AI technical safety work threshold | 9.38e4                  | 26.7                     | 7.04e7          | 1.07e-5                 | 0.0374                   | 1.42e-8         |
-| Maximum willingness to pay threshold      | 6.59e3                  | 3.16e3                   | 1.21e4          | 1.52e-4                 | 3.17e-4                  | 8.25e-5          |
+| Minimum willingness to pay threshold      | 5.41                    | 4.21                     | 4.46            | 0.288                   | 0.237                    | 0.201           |
+| Robust AI technical safety work threshold | 9.38e4                  | 26.7                     | 7.04e7          | 0.1358                 | 0.0374                   | 0.382         |
+| Maximum willingness to pay threshold      | 6.59e3                  | 3.16e3                   | 1.21e4          | 6.59e-4                 | 3.17e-4                  | 1.2e-3          |
+
+(Note that in general, the mean of an inverse distribution is not the inverse of the mean).
 
 ### 3.4. A note on replicability of estimates
 

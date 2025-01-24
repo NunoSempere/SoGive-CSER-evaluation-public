@@ -32,7 +32,7 @@ int main()
     // Lower bound
     double* array_lower_bound_bps_per_million = malloc((size_t)n_samples * sizeof(double));
     double sample_lower_bound_bps_per_million(uint64_t* seed){
-        return 1/(low_bound_willingness_to_pay_basis_point(seed) / MILLION);
+        return 1/(low_bound_willingness_to_pay_dollars_per_basis_point(seed) / MILLION);
         // return low_bound_willingness_to_pay_basis_point(seed);
     }
     sampler_parallel(sample_lower_bound_bps_per_million, array_lower_bound_bps_per_million, n_threads, n_samples);

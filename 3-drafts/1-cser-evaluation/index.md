@@ -82,9 +82,9 @@ The approach was to define some thresholds, and check whether a potential interv
 
 | Threshold                                 | Mean value in M\$/bp | Median value in M\$/bp | Std in M\$/bp | Mean value in bp/M\$ | Median value in bp/M\$ | Std in bp/M\$ |
 | ----------------------------------------- | --------------------- | ----------------------- | -------------- | --------------------- | ----------------------- | -------------- |
-| Minimum willingness to pay threshold      | 5.41                  | 4.21                    | 4.46           | 0.287                 | 0.237                   | 0.201          |
-| Robust AI technical safety work threshold | 9.38e4                | 26.7                    | 7.04e7         | 1.07e-5               | 0.0374                  | 1.42e-8        |
-| Maximum willingness to pay threshold      | 6.59e3                | 3.16e3                  | 1.21e4         | 6.59e-4               | 3.17e-4                 | 1.2e-3        |
+| Minimum willingness to pay threshold      | 5.41                    | 4.21                     | 4.46            | 0.288                   | 0.237                    | 0.201           |
+| Robust AI technical safety work threshold | 9.38e4                  | 26.7                     | 7.04e7          | 0.1358                 | 0.0374                   | 0.382         |
+| Maximum willingness to pay threshold      | 6.59e3                  | 3.16e3                   | 1.21e4          | 6.59e-4                 | 3.17e-4                  | 1.2e-3          |
 
 ### 2.1. Minimum willingness to pay
 

@@ -30,6 +30,14 @@ int main()
     fclose(fp); //Don't forget to close the file when finished
 
 
+    printf("In M$/bp this is...\n");
+    for(int i=0; i<n_samples; i++){
+        low_bound_samples[i] = low_bound_samples[i] / MILLION;
+    }
+    array_print_stats(low_bound_samples, n_samples);
+    printf("\n");
+
+
     // In bp/MILLION instead 
     printf("\nIn bp/M$ instead this is...");
     sampler_parallel(low_bound_bp_per_million, low_bound_samples, 16, n_samples);
@@ -43,18 +51,25 @@ int main()
     printf("Based on the impression that humanity can't really spend all its future at once...\n");
     printf("a rough higher bound of how much one should be willing to pay for 1 basis point of xrisk reduction is...\n");
     array_print_stats(high_bound_samples, n_samples);
+    printf("\n");
 
     fp = fopen("samples_high_bound.txt", "w");// "w" = write. destructive
     for(int i=0; i<n_samples; i++){
         fprintf(fp, "%lf\n", high_bound_samples[i]);
     }
     fclose(fp); //Don't forget to close the file when finished
+
+    printf("In M$/bp this is...\n");
+    for(int i=0; i<n_samples; i++){
+        high_bound_samples[i] = high_bound_samples[i] / MILLION;
+    }
+    array_print_stats(high_bound_samples, n_samples);
+    printf("\n");
     
     // In bp/MILLION instead 
     printf("\nIn bp/M$ instead this is...");
     sampler_parallel(high_bound_bp_per_million, high_bound_samples, 16, n_samples);
     array_print_stats(high_bound_samples, n_samples);
     printf("\n");
-
 
 }
