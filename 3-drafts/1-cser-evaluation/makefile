@@ -12,7 +12,7 @@ MARKDOWN_IMAGES=-f markdown-implicit_figures
 
 build: $(OUTPUT)
 
-$(OUTPUT): $(INPUT)
+$(OUTPUT): $(INPUT) header.md
 	rm -rf imgs/
 	cp -r ../../2-graphs/imgs imgs
 	rm -f tmp.md
