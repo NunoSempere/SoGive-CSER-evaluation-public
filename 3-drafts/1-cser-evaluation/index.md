@@ -348,14 +348,14 @@ CSER's AI program ends up beating one of the thresholds outright, the threshold 
 
 The comparison against the more ambitious "first principles" threshold (i.e., "minimum willingness to pay") is a bit trickier. My model of CSER says that CSER has a higher mean than the threshold. For expected value maximization, beating the mean is enough.
 
-A series of independent bets like CSER's AI program would, considered together, stochastically beat the ambitious threshold.
+A series of independent bets like CSER's AI program would, considered together, stochastically beat the ambitious threshold. Values in the table below are in basis points per million dollars:
 
-| Statistic               | Value (bp/M$, CSER AI)     | Value (bp/M$, minimum willingness to pay threshold) | Value (bp/M$, AI safety community threshold) |                      |
-| ----------------------- | -------------------------------------------------------------------------------- | -------------------------------------------- | -------------------- |
-| Mean                    | 2.198786                                                                         | 0.287678                                     | 0.135836             |
-| Median                  | 0.996550                                                                         | 0.237393                                     | 0.037410             |
-| Std                     | 3.561656                                                                         | 0.201160                                     | 0.382310             |
-| 90% confidence interval | 0.018285 to 8.340615                                                             | 0.075771 to 0.669618                         | 0.000802 to 0.554423 |
+| Statistic               | CSER AI     |  Minimum willingness to pay threshold | AI safety community threshold |                      
+| ----------- | ---- | ---------- | ----- |
+| Mean      | 2.198786  | 0.287678    | 0.135836 |
+| Median    | 0.996550  | 0.237393    | 0.037410 |
+| Std       | 3.561656  | 0.201160    | 0.382310 |
+| 90% confidence interval | 0.018285 to 8.340615 | 0.075771 to 0.669618  | 0.000802 to 0.554423 |
 
 From here, the natural course of action seems to be as follows: seek to reduce funging within CSER, and then make a restricted donation to CSER's AI work. Another option might be instead to lobby Open Philanthropy to fund CSER's AI program. 
 
