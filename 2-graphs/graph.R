@@ -3,6 +3,7 @@ library(ggplot2)
 library(ggthemes)
 library(scales)
 
+
 # set working directory
 setwd("/home/nuno/Documents/core/jobs/past/sogive-cser/SoGive-CSER-evaluation-public/2-graphs")
 SAVE_IMGS = TRUE

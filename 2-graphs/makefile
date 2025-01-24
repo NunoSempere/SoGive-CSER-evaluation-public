@@ -1,6 +1,7 @@
 DIR=/home/nuno/Documents/core/jobs/past/sogive-cser/SoGive-CSER-evaluation-public
 
 graph:
+	echo "This will take about ~1 to 2 mins"
 	rm -rf imgs
 	mkdir imgs
 	r graph.R
