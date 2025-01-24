@@ -126,9 +126,9 @@ Having settled on "willingness to pay" as the relevant question in our case, we 
 
 #### 3.1.1. A minimum willingness to pay
 
-Is there some amount such that one should be willing to pay at least that amount to avert a given amount of existential risk? I say yes. We can build such a minimum willingness to pay bound by noticing that it would be a good outcome if the existential risk community spent all its money[^6] to bring existential risk[^7] down to zero. If we do so, we arrive at a threshold of \~$4M (1.49M to 13.2M) per basis point (0.01%) of existential risk reduced. 
+Is there some amount such that one should be willing to pay at least that amount to avert a given amount of existential risk? I say yes. We can build such a minimum willingness to pay bound by noticing that it would be a good outcome if the existential risk community spent all its money[^6] to bring existential risk[^7] down to zero. If we do so, we arrive at a threshold of \~$5.4M (1.49M to 13.2M) per basis point (0.01%) of existential risk reduced. 
 
-This threshold should be understood as an ambitious amount: if you can find an opportunity that buys 1 basis point for \~$4M, my guess is that that funders seeking to reduce existential risk should be eager to take it.
+This threshold should be understood as an ambitious amount: if you can find an opportunity that buys 1 basis point for \~$5.4M, my guess is that that funders seeking to reduce existential risk should be eager to take it.
 
 The two basic building blocks of the model are estimates of total funding and total risk. As the capital seeking to reduce existential risk rises or the amount of risk decreases, it can afford to relax its cost-effectiveness while still meeting its raison d'être. As one increases capital, at some point one would reach a point where one would want to solve existential risk and then have extra funding left over. Then this threshold would no longer be valid.
 
